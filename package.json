@@ -17,6 +17,10 @@
   },
   "author": "Clément Joye",
   "license": "MIT",
+  "dependencies": {
+    "styled-components": "^5.3.3"
+  },
+  "peerDependencies": {},
   "devDependencies": {
     "@babel/core": "^7.18.10",
     "@babel/preset-env": "^7.18.10",
@@ -46,7 +50,10 @@
     "rollup-plugin-dts": "^4.1.0",
     "rollup-plugin-peer-deps-external": "^2.2.4",
     "rollup-plugin-terser": "^7.0.2",
-    "styled-components": "^5.3.3",
     "typescript": "^4.5.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/clement-joye/react-websitecarbon-badge"
   }
 }
