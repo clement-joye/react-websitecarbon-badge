@@ -1,6 +1,13 @@
 # react-websitecarbon-badge
 
-React component for Website Carbon badge: https://www.websitecarbon.com/badge/
+React component for Website Carbon badge: https://www.websitecarbon.com/badge/. Can be used both for static and dynamic websites.
+
+## Introduction
+
+This React component fits both static and dynamic web apps.
+The values on the badge can be set directly via props or fetched from https://www.websitecarbon.com/api/.
+
+If using GatsbyJS, this react component goes hand in hand with: https://www.npmjs.com/package/gatsby-source-websitecarbon
 
 ## Install
 

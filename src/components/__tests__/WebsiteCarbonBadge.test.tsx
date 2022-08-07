@@ -6,6 +6,6 @@ import WebsiteCarbonBadge from '../WebsiteCarbonBadge';
 
 describe('Running Test for WebsiteCarbonBadge', () => {
   it('renders the component', () => {
-    render(<WebsiteCarbonBadge />);
+    render(<WebsiteCarbonBadge co2="0.12" percentage="89"/>);
   });
 });
