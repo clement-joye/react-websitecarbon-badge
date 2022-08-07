@@ -2,6 +2,11 @@
   "name": "react-websitecarbon-badge",
   "version": "1.0.0",
   "description": "React component for Website Carbon badge: https://www.websitecarbon.com/badge/",
+  "keywords": [
+    "react",
+    "website-carbon",
+    "websitecarbon-badge"
+],
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
   "scripts": {
