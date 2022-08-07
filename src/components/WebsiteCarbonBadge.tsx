@@ -94,8 +94,8 @@ const dict = {
   fr: {
     p1: "de",
     p2: "vue",
-    p3: "Plus légere que",
-    p4: "Plus lourde que",
+    p3: "Page web plus légère que",
+    p4: "Page web plus lourde que",
     p5: "des pages testées",
   },
 }
