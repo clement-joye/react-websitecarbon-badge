@@ -133,9 +133,9 @@ const WebsiteCarbonBadge = (props: WebsiteCarbonBadgeProps) => {
         }
       }
     }
-    
+
     fetchData(props).catch(console.error)
-  }, [])
+  }, [props])
 
   let ps = props.lang == "fr" ? dict.fr : dict.en
 
