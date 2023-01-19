@@ -144,7 +144,7 @@ const WebsiteCarbonBadge = (props: WebsiteCarbonBadgeProps) => {
       <div>
         <LinkCo2
           target="_blank"
-          rel="noopener"
+          rel="noopener noreferrer"
           href={`https://www.websitecarbon.com/website/${props.url}`}
         >
           {data.co2 ? data.co2 : "-"}g {ps.p1} CO<Sub>2</Sub>/{ps.p2}
@@ -152,7 +152,7 @@ const WebsiteCarbonBadge = (props: WebsiteCarbonBadgeProps) => {
         <Link
           dark={props.dark}
           target="_blank"
-          rel="noopener"
+          rel="noopener noreferrer"
           href="https://websitecarbon.com"
         >
           Website Carbon
