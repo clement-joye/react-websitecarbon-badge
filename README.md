@@ -18,7 +18,7 @@ npm install react-websitecarbon-badge
 ## How to use
 
 ```js
-import WebsiteCarbonBadge from 'react-websitecarbon-badge';
+import { WebsiteCarbonBadge } from 'react-websitecarbon-badge';
 
 class MyComponent extends React.Component {
   render() {
@@ -31,7 +31,7 @@ class MyComponent extends React.Component {
 
 * `dark`: 
   * Boolean
-  * Optional. Default `true`
+  * Optional. Default `false`
   * Specify to use dark badge version 
 * `co2`: 
   * String
